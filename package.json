@@ -1,0 +1,27 @@
+{
+  "name": "apiserver",
+  "version": "1.0.0",
+  "description": "A Plex and Sonos API Server ()\u001b[Dused with Plextron client)\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[\u001b[C\u001b[C\u001b[C\u001b",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wwwizzarrdry/apiserver.git"
+  },
+  "keywords": [
+    "Plex",
+    "Sonos"
+  ],
+  "author": "wwwizzarrdry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wwwizzarrdry/apiserver/issues"
+  },
+  "homepage": "https://github.com/wwwizzarrdry/apiserver#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}

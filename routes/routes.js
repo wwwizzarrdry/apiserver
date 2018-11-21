@@ -4,12 +4,12 @@ var moment = require('moment');
 //#################################
 const PlexAPI = require("plex-api");
 const client = new PlexAPI({
-    hostname: "192-168-2-115.959ccd2a23bc432a8218f87e05a93342.plex.direct", // hostname where Plex Server runs
+    hostname: "", // hostname where Plex Server runs
     port: 32400, // port number Plex Server is listening on (optional, default: 32400)
     https: true, // (optional, default: false)
-    username: "wwwizzarrdry", // plex.tv username (optional / required for PlexHome)
-    password: "bobdylan21", // plex.tv password (optional / required for PlexHome)
-    token: "d74SapxxAz5v1cJLAzyw", // plex.tv authentication token (optional)
+    username: "", // plex.tv username (optional / required for PlexHome)
+    password: "", // plex.tv password (optional / required for PlexHome)
+    token: "", // plex.tv authentication token (optional)
     timeout: 6000, // timeout value in milliseconds to use when making requests (optional)
     options: {
         //override additional PlexHome options (optional, but recommended for PlexHome)
